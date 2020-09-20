@@ -38,6 +38,11 @@
   .search-container {
     width: 100%;
   }
+
+  .input {
+    font-size: 1rem;
+  }
+
   .input::placeholder {
     font-size: 1rem;
   }
