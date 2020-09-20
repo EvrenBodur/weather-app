@@ -13,7 +13,7 @@
   height: 100%;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1024px) {
   .card-container {
     align-items: center;
     justify-content: center;
