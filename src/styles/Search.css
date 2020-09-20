@@ -1,0 +1,44 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 15vh;
+}
+
+.input {
+  width: 40%;
+  height: 50%;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  font-size: 2rem;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #fefedf5e;
+}
+
+.button {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  outline: none;
+  background-color: #4b8077;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 414px) {
+  .search-container {
+    width: 100%;
+  }
+  .input::placeholder {
+    font-size: 1rem;
+  }
+}

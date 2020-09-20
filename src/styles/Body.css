@@ -1,0 +1,23 @@
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100%;
+  min-height: 60vh;
+}
+
+.card-container {
+  display: flex;
+  min-width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 414px) {
+  .card-container {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+}

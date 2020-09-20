@@ -1,0 +1,2 @@
+export const FETCH_WEATHER_DATA = "FETCH_WEATHER_DATA";
+export const GET_INPUT = "GET_INPUT";

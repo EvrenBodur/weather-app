@@ -1,0 +1,18 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 15vh;
+}
+
+.header-container span {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 414px) {
+  .header-container span {
+    font-size: 2rem;
+  }
+}
